@@ -168,6 +168,7 @@ return [
          */
 
         Barryvdh\Debugbar\ServiceProvider::class,
+        PrettyRoutes\ServiceProvider::class,
 
         /*
          * Application Service Providers...
