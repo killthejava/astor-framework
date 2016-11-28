@@ -15,7 +15,8 @@
         "symfony/css-selector": "3.1.*",
         "symfony/dom-crawler": "3.1.*",
         "barryvdh/laravel-debugbar": "^2.3",
-        "garygreen/pretty-routes": "^0.0.5"
+        "garygreen/pretty-routes": "^0.0.5",
+        "miroc/laravel-adminer": "^4.2"
     },
     "autoload": {
         "classmap": [

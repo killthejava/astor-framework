@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4bc4bc3802416ae309d5783f7bd159df",
-    "content-hash": "62ed65d6ed366e31cfbe77e97d7bca10",
+    "hash": "ed3367d7ca6f2c924a2b95a8c64b7b72",
+    "content-hash": "b40716117a2a660415499d89bbccd89a",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2168,6 +2168,49 @@
                 "debugbar"
             ],
             "time": "2016-09-15 14:01:59"
+        },
+        {
+            "name": "miroc/laravel-adminer",
+            "version": "4.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miroc/Laravel-Adminer.git",
+                "reference": "1fc88ce460321e6dcc93ee8ccf55f7c5f616a85d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/miroc/Laravel-Adminer/zipball/1fc88ce460321e6dcc93ee8ccf55f7c5f616a85d",
+                "reference": "1fc88ce460321e6dcc93ee8ccf55f7c5f616a85d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Miroc\\LaravelAdminer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miroslav Svitok",
+                    "email": "mirosvitok@gmail.com"
+                }
+            ],
+            "description": "Adminer (by Jakub Vrana) wrapper for Laravel 5",
+            "keywords": [
+                "adminer",
+                "database",
+                "laravel5",
+                "management"
+            ],
+            "time": "2016-02-21 09:53:00"
         },
         {
             "name": "mockery/mockery",
